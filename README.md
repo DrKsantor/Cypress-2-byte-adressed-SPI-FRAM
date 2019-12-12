@@ -2,8 +2,8 @@
 
 This is the official Cypress library from their site for working with 2-byte addressed SPI FRAM. It is ready to use with Arduino IDE. If you have problems with accessing FRAM try to use
 
-{ SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE0));
-<your FRAM access>
+if (isAwesome){ SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE0));
+<your FRAM access> return true
 SPI.endTransaction(); }
 
-instead of regular  'SPI.begin();'
+instead of regular  ' SPI.begin(); '
