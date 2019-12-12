@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For Cypress_FRAM
+#######################################
+ 
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+ 
+FRAM_SPI_Init 			KEYWORD2
+FRAM_SPI_Write 			KEYWORD2
+FRAM_SPI_Read 			KEYWORD2
+FRAM_SPI_BurstWrite 		KEYWORD2 
+FRAM_SPI_BurstRead 		KEYWORD2
+FRAM_SPI_Status_Reg_Write 	KEYWORD2
+FRAM_SPI_Status_Reg_Read 	KEYWORD2
+ 
+#######################################
+# Constants (LITERAL1)
+#######################################
